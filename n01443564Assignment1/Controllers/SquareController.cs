@@ -7,12 +7,18 @@ using System.Web.Http;
 
 namespace n01443564Assignment1.Controllers
 {
+    /// <summary>
+    ///  This method will take in an input for a number and output the value of the square of the input number
+    /// </summary>
+    /// <param name="id">the input of a number</param>
+    /// <returns> the input number *the input number</returns>
+    /// <example>
+    /// GET api/Square/2 -> 4
+    /// GET api/Square/-2 -> 4
+    /// GET api/Square/10 -> 100
+    /// </example>
     public class SquareController : ApiController
-    {   /// <summary>
-        /// Returns the square of the integer input {id}.
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+    {
         //GET api/Square/id 
         public int Get(int id)
         {

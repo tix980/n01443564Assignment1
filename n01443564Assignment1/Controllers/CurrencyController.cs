@@ -53,3 +53,14 @@ namespace n01443564Assignment1.Controllers
         }
     }
 }
+
+
+
+return new string[]
+{
+                int
+                ((id)/14)+1 +" "+"fortnights at $5.50/FN = $" + (((id)/14)+1)*5.50 + " " +"CAD",
+                "HST 13% = $" + ((((id)/14)+1)*5.50) * 0.13,
+                "Total = $" + (((((id)/14)+1)*5.50) + ((((id)/14)+1)*5.50) * 0.13),
+};
+        }
