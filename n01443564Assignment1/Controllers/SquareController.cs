@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace n01443564Assignment1.Controllers
 {
+    ///objective: create a method which returns the square of  the input value.
     /// <summary>
     ///  This method will take in an input for a number and output the value of the square of the input number
     /// </summary>

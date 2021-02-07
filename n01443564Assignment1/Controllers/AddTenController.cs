@@ -6,7 +6,8 @@ using System.Net.Http;
 using System.Web.Http;
 
 namespace n01443564Assignment1.Controllers
-{
+{   
+    ///objective: create a method which returns 10 more than the input value.
     /// <summary>
     ///  This method will take in an input for a number and output the value of 10 more than the input number
     /// </summary>

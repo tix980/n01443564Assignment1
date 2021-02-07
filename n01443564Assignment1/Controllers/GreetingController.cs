@@ -7,8 +7,9 @@ using System.Web.Http;
 
 namespace n01443564Assignment1.Controllers
 {
+    ///objective: create a method which returns the string "Hello World!"
     /// <summary>
-    ///  This method will would display "Hello World!" by sending a get request.
+    ///  This method will would display "Hello World!" by sending a post request.
     /// </summary>
     /// <returns> the string"Hello World!"</returns>
     /// <example>
@@ -22,6 +23,7 @@ namespace n01443564Assignment1.Controllers
             return "Hello World!";
         }
 
+        ///objective: create a method which describes how many people are being greeted by entering an input number. 
         /// <summary>
         /// This method will take in an input for a number and will output the total value of people that are greeted.
         /// </summary>
@@ -34,7 +36,7 @@ namespace n01443564Assignment1.Controllers
         /// </example>
         public string Get(int id)
         {
-            return "Greetings to" + " " + id + " " + "people!";
+            return "Greetings to " + id +" people!";
 
         }
     }

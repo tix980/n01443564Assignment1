@@ -11,6 +11,8 @@ namespace n01443564Assignment1.Controllers
     {
         public IEnumerable<string> Get(int id)
         {
+            ///objective: create a method which returns total value of fornights fees, HST 13% tax, and hosting cost
+            ///by entering the number of fornight as the input number.
             /// <summary>
             /// This method will take in an input for the number of days and will output the total value of fornights,
             ///HST 13% tax, and the hosting cost.

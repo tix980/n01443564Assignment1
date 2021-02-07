@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace n01443564Assignment1.Controllers
 {
+    ///objective: create a method which applies four mathematical operations(+,-,*,/) to an input number
     /// <summary>
     ///  This method will take in an input for a number and output the total value of the input number with four mathematical operations applied.
     /// </summary>
