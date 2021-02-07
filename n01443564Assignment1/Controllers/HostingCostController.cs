@@ -32,7 +32,7 @@ namespace n01443564Assignment1.Controllers
             decimal total = totalFornightsFees + hst;
             return new string[]
             {
-                totalFornights.ToString() + " " + "fortnights at $5.50/FN = $" + totalFornightsFees.ToString() + " " + "CAD",
+                totalFornights.ToString() + " fortnights at $5.50/FN = $" + totalFornightsFees.ToString() +" CAD",
                 "HST 13% = $" + hst,
                 "Total = $" + total,
             };
