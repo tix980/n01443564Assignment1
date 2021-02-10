@@ -25,9 +25,10 @@ namespace n01443564Assignment1.Controllers
 
         ///objective: create a method which describes how many people are being greeted by entering an input number. 
         /// <summary>
-        /// This method will take in an input for a number and will output the total value of people that are greeted.
+        /// This method will take in an input for an interger number and will return a sentence with the total number
+        /// of people that are being greeted.
         /// </summary>
-        /// <param name="id">total number of people</param>
+        /// <param name="id">total interger number of people</param>
         /// <returns>sentence which describe total people are greeted</returns>
         /// <example>
         /// GET api/Greeting/3 ->"Greetings to 3 people!"

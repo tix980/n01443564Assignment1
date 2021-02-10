@@ -9,9 +9,9 @@ namespace n01443564Assignment1.Controllers
 {
     ///objective: create a method which returns the square of  the input value.
     /// <summary>
-    ///  This method will take in an input for a number and output the value of the square of the input number
+    ///  This method will take in an input for an interger number and calculate the value of the square of the input number
     /// </summary>
-    /// <param name="id">the input of a number</param>
+    /// <param name="id">An interger number</param>
     /// <returns> the input number *the input number</returns>
     /// <example>
     /// GET api/Square/2 -> 4

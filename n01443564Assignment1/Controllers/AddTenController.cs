@@ -9,9 +9,9 @@ namespace n01443564Assignment1.Controllers
 {   
     ///objective: create a method which returns 10 more than the input value.
     /// <summary>
-    ///  This method will take in an input for a number and output the value of 10 more than the input number
+    ///  This method will take in an input for an interger number and calculate the value of 10 more than the input number
     /// </summary>
-    /// <param name="id"> the input of a number</param>
+    /// <param name="id"> An interger number</param>
     /// <returns> the input number + 10</returns>
     /// <example>
     /// GET api/AddTen/21 ->31
